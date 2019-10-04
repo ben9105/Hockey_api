@@ -31,7 +31,9 @@ print(f'The score is {away_name}: {away_goal} and {home_name}: {home_goal}.')
 
 print('')
 
-if (home_goal > away_goal):
+if (home_goal == away_goal):
+    print('Tie game!')
+elif (home_goal > away_goal):
     print(f'{home_name} are winning!')
 else:
     print(f'{away_name} are winning')
